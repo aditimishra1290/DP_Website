@@ -51,6 +51,61 @@ background-size:cover;
 max-width:100%;height:auto;
 
 }
+.button  {
+border-radius:30px;
+  background-color:none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 
+{
+border-style:solid;
+background-color:none;
+color:#404040;
+border-color:#404040;
+}
+.button2{
+background-color:#404040;
+padding: 17px 42px;
+}
+.button1:hover{
+color:black;
+}
+.button2:hover{
+color:black;
+background-color:white;
+}
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\203a';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.button2:hover span {
+  padding-right: 10px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 1;
+}
 /*@media only screen and (max-width: 600px) {
   .topnav a{
  float:none;
@@ -85,7 +140,10 @@ margin-bottom:15px;
 
 <div class="pic" style="padding-left:30%; ">
   <p style="padding-top:30%; margin-top:0px;font-size:5vw;color:#404040;">Keep Your Business<br><b style="font-size:7vw;">Clean & Simple</b></p>
-  <p style="color:#404040;font-size:2vw;padding-top:0px;">Aenan lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.<br><br><br><br><br><br>....</p>
+  <p style="color:#404040;font-size:2vw;padding-top:0px;">Aenan lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.<br><br>
+    <a href="#2" class="button button1">LEARN MORE</a>
+<a href="#1" class="button button2"><span>BUY NOW</span></a>
+  <br><br><br><br>....</p>
 </div>
 <div><h1>abcd</h1>
 </div>
